@@ -2,6 +2,7 @@
     name = "主页"
     url = "/"
     weight = -100
+    identifier = "home"
 
 [[main]]
     name = "档案"
