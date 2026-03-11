@@ -2,11 +2,6 @@
 title: "隐私政策"
 slug: "privacy"
 draft: false
-weight: 4
-menu:
-    main:
-        params:
-            icon: shield
 ---
 
 本隐私政策详细说明了我们在您使用本站时如何处理您的个人信息。
