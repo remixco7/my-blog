@@ -1,1 +1,24 @@
+[[main]]
+    name = "主页"
+    url = "/"
+    weight = 10
 
+[[main]]
+    name = "档案"
+    url = "/archives/"
+    weight = 20
+
+[[main]]
+    name = "搜索"
+    url = "/search/"
+    weight = 30
+
+[[main]]
+    name = "关于我"
+    url = "/about/"
+    weight = 40
+
+[[main]]
+    name = "隐私政策"
+    url = "/privacy/"
+    weight = 50
