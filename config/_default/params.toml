@@ -58,7 +58,7 @@ SortBy              = "default"
     # Copy the configurations you need from there and paste it here.
 [google.adsense]
     enable = true
-    client = "ca-pub-xxxxxxxxxxxxxxxx" # 
+    client = "ca-pub-5936544039418920" # 
 [search]
 enabled = true
     type = "json"
