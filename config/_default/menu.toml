@@ -1,7 +1,7 @@
 [[main]]
     name = "主页"
     url = "/"
-    weight = -100
+    weight = 10
     identifier = "home"
 
 [[main]]
