@@ -18,9 +18,9 @@ SortBy              = "default"
     lastUpdated = ":date_full"
 
 [sidebar]
-    emoji = "🚀"  
+    emoji = "🚀"
     name = "Remixco"
-    bio = "数字生活折腾家，专注家庭实验室、自动化运维与云服务器实战。"
+    bio = "数字生活折腾家，专注家庭实验室与自动化运维。"
     avatar = "https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mp&f=y"
 
 [article]
