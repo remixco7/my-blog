@@ -10,17 +10,18 @@ favicon        = "img/favicon.png"
 SortBy              = "default"
 
 [footer]
-    since      = 2020
-    customText = ""
+    since = 2026
+    customText = "© 2026 Remixco. All Rights Reserved."
 
 [dateFormat]
     published   = ":date_full"
     lastUpdated = ":date_full"
 
 [sidebar]
-    emoji    = "🍥"
-    subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    avatar   = "img/avatar.png"
+    emoji = "🚀"  
+    name = "Remixco"
+    bio = "数字生活折腾家，专注家庭实验室、自动化运维与云服务器实战。"
+    avatar = "https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mp&f=y"
 
 [article]
     headingAnchor = false
