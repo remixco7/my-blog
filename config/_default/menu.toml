@@ -1,7 +1,7 @@
 [[main]]
     name = "主页"
     url = "/"
-    weight = 10
+    weight = -100
 
 [[main]]
     name = "档案"
