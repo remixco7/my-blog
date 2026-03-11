@@ -1,6 +1,6 @@
 ---
 title: "云端捡漏实战：Oracle Cloud 凤凰城区域 4核24G ARM 实例抢购与 API 配置心得"
-date: 2026-03-11T20:00:00+08:00
+date: 2026-03-11T03:00:00+08:00
 draft: false
 author: "Yudi"
 categories: ["云服务器", "进阶折腾"]
@@ -28,15 +28,6 @@ tags: ["Oracle Cloud", "ARM", "Phoenix", "API", "Docker"]
 **3. 解决 DNS 解析失败报错**
 在实战过程中，我遇到了频繁的 `socket.gaierror: [Errno -3] Temporary failure in name resolution` 报错。经过排查发现，由于抢机脚本请求频率较高，容易触发 Docker 容器内部或运营商的 DNS 限流。
 **解决方案**：在 Docker 部署时强制指定公共 DNS（如 `8.8.8.8` 和 `1.1.1.1`），或者在容器的 Hosts 中将 `iaas.us-phoenix-1.oraclecloud.com` 的 IP 直接写死。
-
-### 抢机心得与风控建议
-
-抢机虽然心切，但**请求频率（Request Interval）**极其重要。过于密集的请求（如 1-2 秒一次）不仅容易导致连接重置（MaxRetryError），更有可能触发甲骨文官方的风控，导致账号被封禁。
-
-我目前的策略是：
-* 将请求间隔设定在 15-30 秒之间。
-* 部署在延迟较低的海外 VPS（如圣何塞区域）以缩短 API 调用链路。
-* 保持指纹（Fingerprint）的唯一性，避免在多台机器上同时高频登录同一个账号。
 
 ### 总结
 
