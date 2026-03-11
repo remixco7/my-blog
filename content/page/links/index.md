@@ -1,8 +1,8 @@
 ---
 title: "常用链接"
-description: "我的社交平台与本站法律信息"
+description: "本站相关法律信息与博主社交账号"
 date: 2026-03-11
-image: ""
+layout: links
 links:
   - title: "关于我"
     description: "了解博主 Remixco 的极客生活"
@@ -18,5 +18,5 @@ links:
     image: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
 ---
 
-### 网站指引
-这里记录了本站的核心信息。如果您是 Google AdSense 的审核员，请重点查阅 **[隐私政策](/privacy/)**。
+这里记录了本站的核心指引信息。
+如果您是 Google AdSense 的审核员，请重点查阅 [隐私政策](/privacy/)。
