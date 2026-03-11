@@ -5,10 +5,6 @@ date: 2026-03-11
 slug: "about"
 image: "avatar.png"
 draft: false
-menu:
-    main: 
-        params:
-            icon: user
 ---
 
 ### 欢迎来到我的数字实验室！
