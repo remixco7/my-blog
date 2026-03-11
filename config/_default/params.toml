@@ -60,6 +60,6 @@ SortBy              = "default"
     enable = true
     client = "ca-pub-xxxxxxxxxxxxxxxx" # 
 [search]
-    enabled = true
+enabled = true
     type = "json"
-    indexURL = "/index.json"
+    indexURL = "index.json"
