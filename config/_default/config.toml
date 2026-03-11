@@ -20,6 +20,3 @@ disqusShortname = "hugo-theme-stack"
     home = ["HTML", "RSS", "JSON"]
     page = ["HTML"]
     section = ["HTML"]
-[params.search]
-    enabled = true
-    type = "json"
