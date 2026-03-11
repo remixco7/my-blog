@@ -1,11 +1,12 @@
 ---
 title: "关于我"
-description: "了解 Remixco 和这个博客背后的故事"
-date: 2026-03-11
 slug: "about"
-image: "avatar.png"
 draft: false
 weight: 3
+menu:
+    main:
+        params:
+            icon: user
 ---
 
 ### 欢迎来到我的数字实验室！
