@@ -5,6 +5,7 @@ date: 2026-03-11
 slug: "about"
 image: "avatar.png"
 draft: false
+weight: 3
 ---
 
 ### 欢迎来到我的数字实验室！
