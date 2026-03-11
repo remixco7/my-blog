@@ -1,0 +1,13 @@
+[
+    {{- range $index, $entry := .Site.RegularPages -}}
+    {{- if $index -}}, {{- end -}}
+    {
+        "title": {{ $entry.Title | jsonify }},
+        "date": {{ $entry.Date.Format "2006-01-02" | jsonify }},
+        "permalink": {{ $entry.Permalink | jsonify }},
+        "content": {{ $entry.Plain | jsonify }},
+        "categories": {{ $entry.Params.categories | jsonify }},
+        "tags": {{ $entry.Params.tags | jsonify }}
+    }
+    {{- end -}}
+]
