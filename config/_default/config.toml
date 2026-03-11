@@ -18,3 +18,5 @@ disqusShortname = "hugo-theme-stack"
     pagerSize = 5
 [outputs]
     home = ["HTML", "RSS", "JSON"]
+    page = ["HTML"]
+    section = ["HTML"]
