@@ -11,7 +11,6 @@ hasCJKLanguage = true
 [pagination]
     pageSize = 5
 
-# 这里是给搜索框的“强心针”
 [params.search]
     enabled = true
     type = "json"
