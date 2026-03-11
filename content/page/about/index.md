@@ -2,11 +2,6 @@
 title: "关于我"
 slug: "about"
 draft: false
-weight: 3
-menu:
-    main:
-        params:
-            icon: user
 ---
 
 ### 欢迎来到我的数字实验室！
