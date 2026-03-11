@@ -62,3 +62,4 @@ SortBy              = "default"
 [search]
     enabled = true
     type = "json"
+    indexURL = "/index.json"
