@@ -1,11 +1,8 @@
 baseurl      = "https://remixco.org/"
 languageCode = "zh-cn"
 title        = "Remixco's Lab"
-
-# 核心：开启中文分词
 hasCJKLanguage = true
 
-# 核心：强制开启 JSON 输出（必须放在顶层）
 [outputs]
     home = ["HTML", "RSS", "JSON"]
     page = ["HTML"]
@@ -14,5 +11,8 @@ hasCJKLanguage = true
 [pagination]
     pageSize = 5
 
-# 评论系统（如果不用可以删掉）
-disqusShortname = "hugo-theme-stack"
+# 这里是给搜索框的“强心针”
+[params.search]
+    enabled = true
+    type = "json"
+    indexURL = "/index.json"
