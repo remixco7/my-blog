@@ -22,5 +22,5 @@ hasCJKLanguage = true
     iconHeight = 35
 
 [params.profileMode]
-    enabled = ture 
+    enabled = true 
     imageUrl = "/img/avatar.png"
