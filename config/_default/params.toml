@@ -1,65 +1,70 @@
-# Pages placed under these sections will be shown on homepage and archive page.
-mainSections = ["post"]
-# Output page's full content in RSS.
-rssFullContent = true
-favicon        = "img/favicon.png"
+# 放置在这些部分下的页面将显示在主页和存档页面。
+主要部分 = ["帖子"]
+# 输出页面的全部内容到RSS。
+完整内容的RSS = 真
+网站图标        = "img/favicon.png"
 
-# Accepted values: "default", "lastmod"
-# default = see https://gohugo.io/quick-reference/glossary/#default-sort-order
-# lastmod = sort by last modified date, in descending order
-SortBy              = "default"
+# 接受的值: "default", "lastmod"
+# default = 参见 https://gohugo.io/quick-reference/glossary/#default-sort-order
+# lastmod = 按照最后修改日期排序，降序排列
+排序方式              = "默认"
 
-[footer]
-    since = 2026
-    customText = "© 2026 Remixco. All Rights Reserved."
+[页脚]
+    自2026
+    自定义文本"© 2026 Remixco. 版权所有。”
 
-[dateFormat]
-    published   = ":date_full"
-    lastUpdated = ":date_full"
+[日期格式]
+    发布   = ":date_full"
+    最后更新 = ":日期完整"
 
-[sidebar]
-    emoji = "🚀"
-    name = "Remixco"
+[侧边栏]
+    表情符号 = "🚀"
+    名称 = "Remixco"
     bio = "数字生活折腾家，专注家庭实验室与自动化运维。"
-    avatar = "https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mp&f=y"
+    头像 = "https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mp&f=y"
 
-[article]
-    headingAnchor = false
-    math          = false
-    readingTime   = true
+[文章]
+    标题锚点 = 假
+    数学          = 错误
+    阅读时间   = 真
 
-    [article.license]
-        enabled = true
-        default = "Licensed under CC BY-NC-SA 4.0"
+    [文章.许可证]
+        启用 = 真
+         = "根据CC BY-NC-SA 4.0许可"
 
-[widgets]
-    homepage = [
-        { type = "search" },
+[小部件]
+    主页 = [
+        { type = "搜索" },
         { type = "archives", params = { limit = 5 } },
         { type = "categories", params = { limit = 10 } },
-        { type = "tag-cloud", params = { limit = 10 } },
-    ]
-    page = [{ type = "toc" }]
+        { 类型 = "标签云", 参数 = { 限制 = 10 } },
+    输入：]
+    页面 = [{ 类型 = "目录" }]
 
 [opengraph.twitter]
-    site = ""
-    card = "summary_large_image"
+    网站 = ""
+    卡片 = “summary_large_image”
 
 [colorScheme]
-    toggle  = true
-    default = "auto"
+    切换  = 真
+    默认 = "自动"
 
-## Comments
-[comments]
-    enabled  = true
-    provider = "disqus"
+## 评论
+[评论]
+    启用  = 真
+    提供者 = "disqus"
 
-    # See all the available configurations at https://github.com/CaiJimmy/hugo-theme-stack/blob/master/config/_default/params.toml
-    # Copy the configurations you need from there and paste it here.
-[google.adsense]
-    enable = true
-    client = "ca-pub-5936544039418920" # 
-[search]
-enabled = true
-    type = "json"
-    indexURL = "index.json"
+    # 查看所有可用的配置 https://github.com/CaiJimmy/hugo-theme-stack/blob/master/config/_default/params.toml
+    # 从那里复制你需要的配置并粘贴到这里。
+[谷歌广告Sense]
+    启用 = 真
+    客户端 = "ca-pub-5936544039418920" # 
+[搜索]
+启用 = 真
+    类型 = "json"
+    索引URL"index.json"
+
+[sidebar.avatar]
+    enabled = true
+    local = true
+    src = "img/mia.png"
