@@ -1,49 +1,41 @@
 [[main]]
-    name = "主页"
-    url = "/"
-    weight = 10
-    identifier = "home"
+  identifier = "home"
+  name = "🏠 主页"
+  url = "/"
+  weight = 10
 
 [[main]]
-    name = "档案"
-    url = "/archives/"
-    weight = 20
+  identifier = "projects"
+  name = "🔬 实验室项目"
+  url = "/projects/"
+  weight = 20
 
 [[main]]
-    name = "搜索"
-    url = "/search/"
-    weight = 30
+  identifier = "uses"
+  name = "💻 装备清单"
+  url = "/uses/"
+  weight = 30
 
 [[main]]
-    name = "关于我"
-    url = "/about/"
-    weight = 40
+  identifier = "archives"
+  name = "🗂️ 归档与分类" # 把搜索、标签等收敛到这里
+  url = "/archives/"
+  weight = 40
 
 [[main]]
-    name = "隐私政策"
-    url = "/privacy/"
-    weight = 50
+  identifier = "bookmarks"
+  name = "🧭 极客导航"
+  url = "/bookmarks/"
+  weight = 50
 
 [[main]]
   identifier = "tools"
-  name = "实用工具"
+  name = "⚡ 实用工具"
   url = "/tools/surge.html"
   weight = 60
 
 [[main]]
-  identifier = "projects"
-  name = "实验室项目"
-  url = "/projects/"
+  identifier = "about"
+  name = "👤 关于与隐私"
+  url = "/about/"
   weight = 70
-
-[[main]]
-  identifier = "uses"
-  name = "装备清单"
-  url = "/uses/"
-  weight = 80
-
-[[main]]
-  identifier = "bookmarks"
-  name = "极客导航"
-  url = "/bookmarks/"
-  weight = 90
