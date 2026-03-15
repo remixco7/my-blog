@@ -24,3 +24,6 @@ hasCJKLanguage = true
 [params.profileMode]
     enabled = false 
     imageUrl = "/images/avatar.png"
+
+[params.sidebar.avatar]
+    src = "avatar.png" # 如果放在 assets 根目录
