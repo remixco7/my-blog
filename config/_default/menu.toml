@@ -29,3 +29,21 @@
   name = "实用工具"
   url = "/tools/surge.html"
   weight = 60
+
+[[main]]
+  identifier = "projects"
+  name = "实验室项目"
+  url = "/projects/"
+  weight = 70
+
+[[main]]
+  identifier = "uses"
+  name = "装备清单"
+  url = "/uses/"
+  weight = 80
+
+[[main]]
+  identifier = "bookmarks"
+  name = "极客导航"
+  url = "/bookmarks/"
+  weight = 90
