@@ -18,5 +18,5 @@ hasCJKLanguage = true
 
 [params.sidebar.avatar]
     enabled = true
-    local = true
-    src = "img/avatar.png"  
+    local = false         
+    src = "/avatar.png"   
