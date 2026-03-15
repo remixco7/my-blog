@@ -16,11 +16,7 @@ hasCJKLanguage = true
     type = "json"
     indexURL = "/index.json"
 
-[params.label]
-    text = "Remixco's Lab"
-    icon = "/images/avatar.png" # 对应 static/images/avatar.png
-    iconHeight = 35
-
-[params.profileMode]
-    enabled = true 
-    imageUrl = "/img/avatar.png"
+[params.sidebar.avatar]
+    enabled = true
+    local = true
+    src = "images/avatar.png"  
