@@ -5,23 +5,16 @@
 [sidebar]
   emoji = "🚀"
   subtitle = "数字生活折腾家，专注家庭实验室与自动化运维。"
-  
-  # 这里就是你心心念念的头像配置！
-  [sidebar.avatar]
-    enabled = true
-    local = true
-    src = "img/mia.png"
+  avatar = "img/mia.png"
 
 [article]
   math = false
   readingTime = true
 
-# 强制开启暗黑模式开关，并默认使用暗色
 [colorScheme]
   toggle = true
   default = "dark"
 
-# 你的 Google AdSense 配置
 [googleAdsense]
   enabled = true
   client = "ca-pub-5936544039418820"
