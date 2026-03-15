@@ -1,5 +1,10 @@
 User-agent: *
 Allow: /
+Disallow: /search/
+Disallow: /tags/
+Disallow: /categories/
 
 User-agent: Mediapartners-Google
 Allow: /
+
+Sitemap: https://remixco.org/sitemap.xml
