@@ -1,65 +1,27 @@
-# 放置在这些部分下的页面将显示在主页和存档页面。
-主要部分 = ["帖子"]
-# 将输出页面的全部内容到RSS。
-完整内容的RSS
-网站图标        = "img/favicon.png"
+[footer]
+  since = 2026
+  customText = "Remixco. 版权所有。"
 
-# 接受的值: "default", "lastmod"
-# default = 参见 https://gohugo.io/quick-reference/glossary/#default-sort-order
-# lastmod = 按照最后修改日期排序，降序排列
-排序方式              = "默认"
+[sidebar]
+  emoji = "🚀"
+  subtitle = "数字生活折腾家，专注家庭实验室与自动化运维。"
+  
+  # 这里就是你心心念念的头像配置！
+  [sidebar.avatar]
+    enabled = true
+    local = true
+    src = "img/mia.png"
 
-[页脚]
-    自2026
-    自定义文本"© 2026 Remixco. 版权所有。”
+[article]
+  math = false
+  readingTime = true
 
-[日期格式]
-    发布   = ":date_full"
-    最后更新 = ":日期完整"
-
-[侧边栏]
-    表情符号 = "🚀"
-    名称 = "Remixco"
-    bio = "数字生活折腾家，专注家庭实验室与自动化运维。"
-    头像 = https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mp&f=y
-
-[文章]
-    标题锚点 = 假
-    数学          = 错误
-    阅读时间   = 真
-
-    [文章.许可证]
-        启用 = 真
-         = "根据CC BY-NC-SA 4.0许可"
-
-[小部件]
-    主页 = [
-        { type = "搜索" },
-        { type = "archives", params = { limit = 5 } },
-        { type = "categories", params = { limit = 10 } },
-        { 类型 = "标签云", 参数 = { 限制 = 10 } },
-    输入：]
-    页面 = [{ 类型 = "目录" }]
-
-[opengraph.twitter]
-    网站 = ""
-    卡片 = “概要大图像”
-
+# 强制开启暗黑模式开关，并默认使用暗色
 [colorScheme]
-    切换  = 真
-    默认 = "自动"
+  toggle = true
+  default = "dark"
 
-## 评论
-[评论]
-    启用  = 真
-    提供者 = "disqus"
-
-    # 查看所有可用的配置 https://github.com/CaiJimmy/hugo-theme-stack/blob/master/config/_default/params.toml
-    # 从那里复制你需要的配置并粘贴到这里。
-[谷歌广告Sense]
-    启用 = 真
-    客户端 = "ca-pub-5936544039418920" # 
-[搜索]
-启用 = 真
-    类型 = "json"
-    索引URL"index.json"
+# 你的 Google AdSense 配置
+[googleAdsense]
+  enabled = true
+  client = "ca-pub-5936544039418820"
