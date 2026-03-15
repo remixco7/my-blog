@@ -15,3 +15,8 @@ hasCJKLanguage = true
     enabled = true
     type = "json"
     indexURL = "/index.json"
+
+[[menu.main]]
+  name = "实用工具"
+  url = "/tools/surge.html"
+  weight = 50
