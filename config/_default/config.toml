@@ -21,9 +21,5 @@ hasCJKLanguage = true
     icon = "/images/avatar.png" # 对应 static/images/avatar.png
     iconHeight = 35
 
-[params.profileMode]
-    enabled = false 
-    imageUrl = "/images/avatar.png"
-
 [params.sidebar.avatar]
     src = "avatar.png" # 如果放在 assets 根目录
