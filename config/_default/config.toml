@@ -1,22 +1,17 @@
-baseurl      = "https://remixco.org/"      = "https://remixco.org/"
-语言代码 = "zh-cn" = "zh-cn"
-title        = "Remixco的实验室"        = "Remixco's Lab"
-hasCJKLanguage = 真 = true
+baseURL = "https://remixco.org/"
+languageCode = "zh-cn"
+title = "Remixco's Lab"
+hasCJKLanguage = true
 
-[输出]
-    home = ["HTML", "RSS", "JSON"]home = ["HTML", "RSS", "JSON"]
-    页面 = ["HTML"]page = ["HTML"]
-    section = ["HTML"]section = ["HTML"]
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML"]
+  section = ["HTML"]
 
-[分页]
-    pageSize = 5pageSize = 5
+[pagination]
+  pageSize = 5
 
-[params搜索]
-    启用 = 真enabled = true
-    类型 = "json"type = "json"
-    indexURL = "/index.json"indexURL = "/index.json"
-
-[params.sidebar.avatar]
-    enabled = true
-    local = true
-    src = "img/mia.png"
+[params.search]
+  enabled = true
+  type = "json"
+  indexURL = "/index.json"
