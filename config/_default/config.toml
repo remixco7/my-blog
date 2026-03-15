@@ -23,4 +23,4 @@ hasCJKLanguage = true
 
 [params.profileMode]
     enabled = ture 
-    imageUrl = "/images/avatar.png"
+    imageUrl = "/img/avatar.png"
