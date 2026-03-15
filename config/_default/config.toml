@@ -16,7 +16,11 @@ hasCJKLanguage = true
     type = "json"
     indexURL = "/index.json"
 
-[[menu.main]]
-  name = "实用工具"
-  url = "/tools/surge.html"
-  weight = 50
+[params.label]
+    text = "Remixco's Lab"
+    icon = "/images/avatar.png" # 对应 static/images/avatar.png
+    iconHeight = 35
+
+[params.profileMode]
+    enabled = false 
+    imageUrl = "/images/avatar.png"
