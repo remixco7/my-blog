@@ -15,3 +15,8 @@ hasCJKLanguage = true
   enabled = true
   type = "json"
   indexURL = "/index.json"
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
