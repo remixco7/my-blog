@@ -1,7 +1,7 @@
 # 放置在这些部分下的页面将显示在主页和存档页面。
 主要部分 = ["帖子"]
-# 输出页面的全部内容到RSS。
-完整内容的RSS = 真
+# 将输出页面的全部内容到RSS。
+完整内容的RSS
 网站图标        = "img/favicon.png"
 
 # 接受的值: "default", "lastmod"
@@ -21,7 +21,7 @@
     表情符号 = "🚀"
     名称 = "Remixco"
     bio = "数字生活折腾家，专注家庭实验室与自动化运维。"
-    头像 = "https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mp&f=y"
+    头像 = https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mp&f=y
 
 [文章]
     标题锚点 = 假
@@ -43,7 +43,7 @@
 
 [opengraph.twitter]
     网站 = ""
-    卡片 = “summary_large_image”
+    卡片 = “概要大图像”
 
 [colorScheme]
     切换  = 真
@@ -63,8 +63,3 @@
 启用 = 真
     类型 = "json"
     索引URL"index.json"
-
-[sidebar.avatar]
-    enabled = true
-    local = true
-    src = "img/mia.png"
