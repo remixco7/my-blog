@@ -24,7 +24,8 @@
     url = "/privacy/"
     weight = 50
 
-[[menu.main]]
+[[main]]
+  identifier = "tools"
   name = "实用工具"
   url = "/tools/surge.html"
   weight = 60
