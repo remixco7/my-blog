@@ -17,6 +17,6 @@ hasCJKLanguage = 真 = true
     indexURL = "/index.json"indexURL = "/index.json"
 
 [params.sidebar.avatar]
-    [params.sidebar.avatar] = true
+    enabled = true
     local = true
     src = "img/mia.png"
